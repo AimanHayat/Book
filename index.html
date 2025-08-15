@@ -73,8 +73,7 @@
   // === CONFIG ===
   const pdfUrl = "Khak_Sa_Khaki.pdf"; // <-- put your PDF next to this index.html or change path
   const THUMBS_BATCH = 30; // generate thumbnails in batches of N pages (tweak if needed)
-  // ==============s
-
+  // ====
   // Try to pick the global pdfjs object regardless of CDN build name
   const pdfjsLib = window['pdfjsLib'] || window['pdfjs-dist/build/pdf'] || window['pdfjs-dist/build/pdf.min'];
   if (!pdfjsLib) {
